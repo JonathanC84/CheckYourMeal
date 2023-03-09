@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Dosis:wght@200;400;700&display=swap');
+
+.cym-banner {
+  margin: 2em 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cym-logo {
+  max-height: 8em;
+}
+
+.cym-title {
+  font-family: 'Caveat', cursive;
+  font-size: 4em;
+}
+
+.cym-subtitle { font-size: 1.2em; }
