@@ -1,7 +1,7 @@
 import '../styles/Menu.css'
 
 function Menu() {
-    const categories = ['categorie legumes', 'categorie feculent', 'categorie viande', 'categorie poisson', 'categorie laitage', 'categorie fruit']
+    const categories = ['categorie legume', 'categorie feculent', 'categorie viande', 'categorie poisson', 'categorie laitage', 'categorie fruit']
     return (
         <div className = 'cym-menu'>
             {categories.map((element) => (

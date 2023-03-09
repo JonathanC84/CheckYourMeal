@@ -1,0 +1,50 @@
+.cym-menu {
+    display: flex;
+    justify-content: center;
+}
+
+.categorie {
+    width: 5em;
+    height: 5em;
+    border: solid 0.12em black;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: ease 0.12s;
+    font-weight: bold;
+    margin: 1em;
+}
+
+.legume {
+    background: url(../assets/aubergine.png) center no-repeat;
+    background-size: 50%;
+}
+
+.fruit {
+    background: url(../assets/cerises.png) center no-repeat;
+    background-size: 50%;
+}
+
+.feculent {
+    background: url(../assets/pain.png) center no-repeat;
+    background-size: 50%;
+}
+
+.viande {
+    background: url(../assets/steak.png) center no-repeat;
+    background-size: 50%;
+}
+
+.poisson {
+    background: url(../assets/poisson.png) center no-repeat;
+    background-size: 50%;
+}
+
+.laitage {
+    background: url(../assets/fromage.png) center no-repeat;
+    background-size: 50%;
+}
+
+.categorie:hover {
+    background-color: white;
+    background-size: 55%;
+}
